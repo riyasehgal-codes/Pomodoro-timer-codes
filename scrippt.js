@@ -6,7 +6,7 @@ const reset = document.getElementById("reset");
 
 const timerElement = document.getElementById("timer");
 
-let timerleft = 3; // Timer starts at 1500 seconds (25 minutes)
+let timerleft = 1500; // Timer starts at 1500 seconds (25 minutes)
 let interval;
 
 const update = () => {
